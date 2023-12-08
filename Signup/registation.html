@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"/>
+    <link rel="stylesheet" href="./assets/css/style-prefix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+    <header>
+  
+      <nav class="desktop-navigation-menu">
+  
+        <div class="container">
+  
+          <ul class="desktop-menu-category-list">
+            <img src="C:\xampp\htdocs\Signup\assets\images\logo\logo.png" alt="" width="120" height="100">
+  
+            <li class="menu-category">
+              <a href="#" class="menu-title">Home</a>
+            </li>
+  
+            <li class="menu-category">
+              <a href="#" class="menu-title">About</a>
+            </li>
+  
+            <li class="menu-category">
+              <a href="#" class="menu-title">service</a>
+            </li>
+  
+            <li class="menu-category">
+              <a href="#" class="menu-title">Contact</a>
+            </li>
+  
+            
+  
+          <ul class="menu-social-container">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+
+
+          </ul>
+  
+        </div>
+  
+      </nav>
+  
+    </header>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>Registration Form</h1>
+          </div>
+          <div class="panel-body">
+            <form action="connect.php" method="post" autocomplete="off">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  name="firstName"
+                  placeholder="Enter first Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  name="lastName"
+                  placeholder="Enter last Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="gender">Gender</label>
+                <div>
+                  <label for="male" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="m"
+                      id="male"
+                    />Male</label
+                  >
+                  <label for="female" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="f"
+                      id="female"
+                    />Female</label
+                  >
+                  <label for="others" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="o"
+                      id="others"
+                    />Others</label
+                  >
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                  name="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  name="password"
+                  placeholder="Enter password"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="number">Phone Number</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="number"
+                  name="number"
+                  placeholder="Enter Phone Number"
+                  required
+                />
+              </div>
+              <input type="submit" class="btn btn-primary" />
+              <hr>
+
+              <p>By creating an account you agree to our <a href="#">Terms & Privacy</a></p>
+              <p>Already have an account? <a href="login.html">log in</a></p>
+            </form>
+          </div>
+          <div class="panel-footer text-right">
+            <small>&copy; D&D Developer Pvt.Ltd </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer> 
+        <div class="container">
+          <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+          <ul class="menu-social-container">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </ul>
+          <p class="copyright">
+            &copy; 2023 Your Website. <a href="#"></a> all rights reserved.
+          </p>
+  
+        </div>
+    </footer>
+  </body>
+</html>

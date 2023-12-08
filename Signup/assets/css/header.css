@@ -1,0 +1,54 @@
+/* Reset some default styles */
+body, h1, h2, h3, ul, li, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for header */
+header {
+    background-color: #0d0d0d;
+    color: rgb(243, 237, 237);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-media a {
+    margin-left: 10px;
+}
+
+/* Style for footer */
+footer {
+    background-color: #787474;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    padding: 8px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+}
